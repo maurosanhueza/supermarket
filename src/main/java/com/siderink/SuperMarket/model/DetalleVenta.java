@@ -17,12 +17,14 @@ public class DetalleVenta {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private Integer cantidad;
+    private Double precio;
 
     @ManyToOne
     private Venta venta;
 
     @ManyToOne
     private Producto producto;
-    private Integer cantidad;
-    private Double precio;
+
+
 }

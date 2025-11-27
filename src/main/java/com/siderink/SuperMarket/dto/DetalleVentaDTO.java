@@ -12,6 +12,7 @@ import lombok.*;
 @Builder
 public class DetalleVentaDTO {
     private Long id;
+    private Long idProducto;
     private String nombreProducto;
     private Integer cantidad;
     private Double precio;

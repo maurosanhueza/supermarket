@@ -39,6 +39,7 @@ public class Mapper {
 
         var detalleVenta = v.getDetalle().stream().map(det -> DetalleVentaDTO.builder()
                 .id(det.getProducto().getId())
+                .idProducto(det.getProducto().getId())
                 .nombreProducto(det.getProducto().getNombre())
                 .cantidad(det.getProducto().getCantidad())
                 .precio(det.getProducto().getPrecio())
