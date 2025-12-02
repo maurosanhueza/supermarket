@@ -45,7 +45,7 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<dependency>
+		<dependency><!-- la version por defecto no funciona con la version de springboot-->
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<version>2.2.224</version>
