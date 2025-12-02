@@ -1,8 +1,5 @@
 package com.siderink.SuperMarket.dto;
 
-import com.siderink.SuperMarket.model.Producto;
-import com.siderink.SuperMarket.model.Venta;
-import jakarta.persistence.ManyToOne;
 import lombok.*;
 
 @Getter

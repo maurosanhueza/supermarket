@@ -1,5 +1,6 @@
 package com.siderink.SuperMarket.dto;
 
+import jakarta.persistence.Entity;
 import lombok.*;
 
 import java.time.LocalDate;
