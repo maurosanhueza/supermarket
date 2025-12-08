@@ -8,11 +8,11 @@
 		<version>3.5.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.siderink</groupId>
-	<artifactId>SuperMarket</artifactId>
+	<groupId>com</groupId>
+	<artifactId>supermarket</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SuperMarket</name>
-	<description>Supermarket </description>
+	<name>supermarket</name>
+	<description>supermarket </description>
 	<url/>
 	<licenses>
 		<license/>
